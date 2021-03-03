@@ -859,6 +859,21 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@braid/vue-formulate-i18n@^1.15.0":
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/@braid/vue-formulate-i18n/-/vue-formulate-i18n-1.15.0.tgz#6acffb072bd16a24d1f53c1c1cab06826997f497"
+  integrity sha512-J0mMUiywc//CsUvh+HUduLkpVXB9hdAr5GrNYPSSJoaVFxUCAM8Ge3BYIbG3lAuRa3YldzDIZM3wtUMBtZSXfQ==
+
+"@braid/vue-formulate@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@braid/vue-formulate/-/vue-formulate-2.5.1.tgz#a462a6707cb2919aa760818407789bbddd817697"
+  integrity sha512-pCvvRhwpNVU0Mj9p6epg5PcHTmir7vlWWWbkGQjkBsXTjN8e13T1fQarojsMJ2UGZOwCdsKnz9j7pRdar2C04Q==
+  dependencies:
+    "@braid/vue-formulate-i18n" "^1.15.0"
+    is-plain-object "^3.0.1"
+    is-url "^1.2.4"
+    nanoid "^2.1.11"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -4998,6 +5013,11 @@ is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   dependencies:
     isobject "^3.0.1"
 
+is-plain-object@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-3.0.1.tgz#662d92d24c0aa4302407b0d45d21f2251c85f85b"
+  integrity sha512-Xnpx182SBMrr/aBik8y+GuR4U1L9FqMSojwDQwPMmxyC6bvEqly9UBCxhauBF5vNh2gwWJNX6oDV7O+OM4z34g==
+
 is-regex@^1.0.4, is-regex@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/is-regex/-/is-regex-1.1.2.tgz#81c8ebde4db142f2cf1c53fc86d6a45788266251"
@@ -5044,6 +5064,11 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+
+is-url@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/is-url/-/is-url-1.2.4.tgz#04a4df46d28c4cff3d73d01ff06abeb318a1aa52"
+  integrity sha512-ITvGim8FhRiYe4IQ5uHSkj7pVaPDrCTkNd3yq3cV7iZAcJdHTUMPMEHcqSOy9xZ9qFenQCvi+2wjH9a1nXqHww==
 
 is-windows@^1.0.2:
   version "1.0.2"
@@ -5756,6 +5781,11 @@ nan@^2.12.1:
   version "2.14.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
+
+nanoid@^2.1.11:
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
+  integrity sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==
 
 nanoid@^3.1.20:
   version "3.1.20"
@@ -8437,6 +8467,11 @@ vue-eslint-parser@^7.5.0:
     espree "^6.2.1"
     esquery "^1.4.0"
     lodash "^4.17.15"
+
+vue-form-generator@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/vue-form-generator/-/vue-form-generator-2.3.4.tgz#aa043ea5163ab5c6cc3cc9ab83e7b70dd5e010a9"
+  integrity sha512-gkGLukX2xyVYASVopRVt/v4ZVFpoH+I1j+yRIkJBOR9++UwZTi8yREWydnKukpp/r90SGX68Yzy4OkQrKZHluQ==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"

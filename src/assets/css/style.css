@@ -1,0 +1,16 @@
+#button {
+    background: #f0a500;
+    border-radius: 7px;
+    padding: .7rem 2rem;
+    color: #000;
+    font-size: .9rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form {
+    background: #fff;
+    margin-top: 1rem;
+    padding: 4rem 8rem;
+    border-radius: 20px;
+    height: 95vh;
+}
